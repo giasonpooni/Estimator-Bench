@@ -99,3 +99,8 @@ records, or historical runtime pins.
 - [Invariant corpus](validation/invariant-corpus-v1.json)
 - [Corpus citation and claim boundary](docs/invariant-corpus-cite-v1.md)
 - [License](LICENSE)
+
+## License
+
+MPL-2.0; see [LICENSE](LICENSE) and [LICENSE-POLICY.md](LICENSE-POLICY.md).
+Historical Apache-2.0 grants remain separately applicable.
