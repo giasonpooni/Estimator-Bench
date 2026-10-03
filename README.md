@@ -24,16 +24,28 @@ attempts, results and verification records retain separate identities.
 Repository URLs, imports, schemas, historical evidence/pins and existing licence
 terms are unchanged by this documentation update.
 
-Part of **Notation Systems' computational instrumentation and evidence infrastructure** for industrial and cyber-physical systems.
+Part of **Notation Systems Inc's computational instrumentation and evidence infrastructure** for industrial and cyber-physical systems.
 
 [Stack map](https://github.com/giasonpooni/Notations-Engineering-Terminal/blob/main/docs/STACK.md) · [Component role and interfaces](docs/STACK_ROLE.md)
 
 **Early-stage evaluation infrastructure for state reconstruction under degraded observations.**
 
 This repository defines the state-estimation evaluation responsibility within
-Notation Systems' computational instrumentation stack. Its scope covers
+Notation Systems Inc's computational instrumentation stack. Its scope covers
 reconstruction under noise, missing observations, latency, and other measurement
 degradation, with the plant and measurement model declared explicitly.
+
+## Organization
+
+**Notation Systems Inc** is the parent organization.
+
+| Division | Focus |
+| --- | --- |
+| **Notations Gaming** | Games, graphics and interactive worlds. |
+| **Notations Manufacturing** | Industrial design, materials and manufacturing systems. |
+| **Notations Laboratories** | Research, scientific computing, simulation and experimental validation. |
+
+This repository contributes estimator evaluation and conformance tools to **Notations Laboratories**, supporting validation workflows across the divisions.
 
 ## Status and implemented contents
 
