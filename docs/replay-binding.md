@@ -47,7 +47,7 @@ Hash agreement alone cannot select or authenticate that executor.
 Evidence, operation, execution and result references remain bound in the receipt;
 the receipt receives its own verification identity and declares
 `independent: false`. The dotted admission edge is an authority boundary, not
-an implemented admission action. See the [Instrumentation diagram atlas](https://github.com/giasonpooni/Computational-Instrumentation-Workbench/blob/main/docs/DIAGRAMS.md).
+an implemented admission action. See the [Instrumentation diagram atlas](https://github.com/atomtrapping/Notations-Systems-Terminal/blob/main/docs/DIAGRAMS.md).
 
 ## Retained subject
 
