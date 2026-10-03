@@ -37,15 +37,17 @@ degradation, with the plant and measurement model declared explicitly.
 
 ## Organization
 
-**Notation Systems Inc** is the parent organization.
+**Notation Systems Inc** is the parent organization: a scientific computing and systems engineering company developing computational instruments, software and interactive environments for understanding and building physical and virtual systems.
+
+The company's development direction connects measurement, state estimation and sensor fusion, scientific modelling, simulation and execution, from materials and machines to interactive worlds.
 
 | Division | Focus |
 | --- | --- |
-| **Notations Gaming** | Games, graphics and interactive worlds. |
-| **Notations Manufacturing** | Industrial design, materials and manufacturing systems. |
-| **Notations Laboratories** | Research, scientific computing, simulation and experimental validation. |
+| **Notations Gaming** | Games, graphics, world building, interactive environments and gameplay simulation. |
+| **Notations Manufacturing** | Design, machinery integration, process development, fabrication and production systems. |
+| **Notations Laboratories** | Research and experimental validation in scientific computing, measurement, physics and chemistry modelling, materials and simulation. |
 
-This repository contributes estimator evaluation and conformance tools to **Notations Laboratories**, supporting validation workflows across the divisions.
+**Repository role:** Estimator Bench supports **Notations Laboratories** through declared reference metrics, exchange validation and native session replay bindings. It provides evaluation infrastructure for broader state estimation development; computational conformance and replay binding do not establish physical estimator adequacy.
 
 ## Status and implemented contents
 
