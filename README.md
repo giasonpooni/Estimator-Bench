@@ -26,7 +26,7 @@ terms are unchanged by this documentation update.
 
 Part of **Notation Systems Inc's computational instrumentation and evidence infrastructure** for industrial and cyber-physical systems.
 
-[Stack map](https://github.com/giasonpooni/Notations-Engineering-Terminal/blob/main/docs/STACK.md) · [Component role and interfaces](docs/STACK_ROLE.md)
+[Stack map](https://github.com/atomtrapping/Notations-Systems-Terminal/blob/main/docs/STACK.md) · [Component role and interfaces](docs/STACK_ROLE.md)
 
 **Early-stage evaluation infrastructure for state reconstruction under degraded observations.**
 
@@ -88,7 +88,7 @@ covariance can leave a normalized metric unavailable while other supported
 metrics remain reportable. Invalid inputs are rejected. The report does not
 supply an estimator, generate degraded observations, or establish the reference
 values as physical truth. Replay binding is a separate implemented operation,
-described below and in the [Instrumentation diagram atlas](https://github.com/giasonpooni/Notations-Engineering-Terminal/blob/main/docs/DIAGRAMS.md).
+described below and in the [Instrumentation diagram atlas](https://github.com/atomtrapping/Notations-Systems-Terminal/blob/main/docs/DIAGRAMS.md).
 
 ### Instrument exchange contract
 
@@ -227,12 +227,12 @@ integrations in this early-stage repository.
 | Component | Responsibility |
 | --- | --- |
 | **Estimator Bench / State Estimation Evaluation Testbed** | Evaluation of reconstruction under declared observation degradation. |
-| [Data Intake / Provenance-Preserving Data Acquisition](https://github.com/giasonpooni/Provenance-Preserving-Data-Acquisition) | Source acquisition, observations, extraction lineage, and explicit missingness. |
-| [State Ledger / Evidence and State Management](https://github.com/giasonpooni/Evidence-and-State-Management) | Evidence retention, versioned state, admission, and release management. |
-| [Scientific Computation Runtime](https://github.com/giasonpooni/Scientific-Computation-Runtime) | Declared scientific computations and provenance-bearing execution. |
-| [Constraint-Based State Reconciliation](https://github.com/giasonpooni/Constraint-Based-State-Reconciliation) | Reconciliation against declared physical or structural constraints. |
-| [Geospatial State Visualization](https://github.com/giasonpooni/Geospatial-State-Visualization) | Read-only presentation of geographic and temporal state. |
-| [Notations Engineering Terminal (CIW)](https://github.com/giasonpooni/Notations-Engineering-Terminal) | Existing instrument sessions, adapters, inspection, and replay. |
+| [Data Intake / Provenance-Preserving Data Acquisition](https://github.com/atomtrapping/Notations-Data-Intake) | Source acquisition, observations, extraction lineage, and explicit missingness. |
+| [State Ledger / Evidence and State Management](https://github.com/atomtrapping/Notations-State-Ledger) | Evidence retention, versioned state, admission, and release management. |
+| [Scientific Computation Runtime](https://github.com/atomtrapping/Notations-Compute-Runtime) | Declared scientific computations and provenance-bearing execution. |
+| [Constraint-Based State Reconciliation](https://github.com/atomtrapping/Notations-State-Recompiler) | Reconciliation against declared physical or structural constraints. |
+| [Geospatial State Visualization](https://github.com/atomtrapping/Notations-Real-Time-Globe) | Read-only presentation of geographic and temporal state. |
+| [Notations Engineering Terminal (CIW)](https://github.com/atomtrapping/Notations-Systems-Terminal) | Existing instrument sessions, adapters, inspection, and replay. |
 
 Evaluation, reconciliation, execution, information governance, and visualization
 remain separate responsibilities. A display or evaluation result does not grant
