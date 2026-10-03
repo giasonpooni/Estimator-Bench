@@ -254,3 +254,15 @@ records, or historical runtime pins.
 - [Invariant corpus](validation/invariant-corpus-v1.json)
 - [Corpus citation and claim boundary](docs/invariant-corpus-cite-v1.md)
 - [License](LICENSE)
+
+## Instrument role
+
+[Notations Systems Terminal](https://github.com/atomtrapping/Notations-Systems-Terminal) coordinates supported execution; this repository owns its evaluation/validation contracts. Estimators retain their algorithms and assumptions. Governed evidence and Notations Gaming's interactive worlds, simulation and digital IP have separate authority. [Current organization](#organization).
+
+## Research profile
+
+**Question:** what evidence is sufficient to support an evaluation or replay claim? Separate numerical accuracy, uncertainty calibration, record integrity and physical validity instead of combining them in one success flag.
+
+Use fixed references and negative cases: missing truth, unknown covariance, inconsistent frames, mismatched replay and unauthenticated runtime declarations. Evaluate new reductions or providers without letting the producer's own acceptance stand in for independent verification.
+
+[Historical research protocol](https://github.com/atomtrapping/Notations-Systems-Terminal/blob/b41b84922d4963a9206202029afd1e78b9451f9c/RESEARCH_PROGRAMME.md). Additional language/CUDA providers and cost telemetry require separate implementation. Benchmarks must retain setup, failures and end-to-end costs, not just successful kernel time.
